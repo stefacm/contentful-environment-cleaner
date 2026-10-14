@@ -1,0 +1,1 @@
+require('./presentation/cli.cjs');

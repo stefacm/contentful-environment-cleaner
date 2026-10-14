@@ -1,4 +1,15 @@
 {
+  "name": "contentful-environment-cleaner",
+  "version": "1.0.0",
+  "private": true,
+  "description": "CLI para limpiar environments de Contentful",
+  "packageManager": "yarn@1.22.22",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "clean": "node src/main.cjs"
+  },
   "dependencies": {
     "contentful-management": "^12.15.0",
     "dotenv": "^17.4.2"
